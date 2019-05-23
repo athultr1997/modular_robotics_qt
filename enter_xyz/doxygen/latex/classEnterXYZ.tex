@@ -1,0 +1,171 @@
+\hypertarget{classEnterXYZ}{}\section{Enter\+X\+YZ Class Reference}
+\label{classEnterXYZ}\index{Enter\+X\+YZ@{Enter\+X\+YZ}}
+
+
+Class for representing a Qt widget for entering the x, y, and z coordinates.  
+
+
+
+
+{\ttfamily \#include $<$enter\+\_\+xyz.\+h$>$}
+
+
+
+Inheritance diagram for Enter\+X\+YZ\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=139pt]{classEnterXYZ__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Enter\+X\+YZ\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=139pt]{classEnterXYZ__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classEnterXYZ_ae217bb1acbaddbecd1256450f265b881}{Enter\+X\+YZ} (Q\+Widget $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em Contructor for \hyperlink{classEnterXYZ}{Enter\+X\+YZ}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classEnterXYZ_ab34de4b59028b6bde318b4c658b273b6}{send\+\_\+\+X\+YZ} ()
+\begin{DoxyCompactList}\small\item\em slot for storing/displaying the entered x,y,z values \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \hyperlink{classEnterXYZ_afbd7b8649dfd2768b948dd9939703de8}{T\+S\+Ls}
+\item 
+std\+::vector$<$ double $>$ \hyperlink{classEnterXYZ_a78c008b7786472acbdf68d4e155a6dc3}{BL}
+\item 
+Q\+Push\+Button $\ast$ \hyperlink{classEnterXYZ_a0ad7b37b9783db8a290cb44e48262866}{enter\+\_\+button}
+\item 
+Q\+Line\+Edit $\ast$ \hyperlink{classEnterXYZ_a12897f6ebf3be1e3ad8c02c03ac2bd5d}{T\+S\+L\+\_\+x\+\_\+input}
+\item 
+Q\+Line\+Edit $\ast$ \hyperlink{classEnterXYZ_a191978afa7c0058b4850e2f461fdf3ec}{T\+S\+L\+\_\+y\+\_\+input}
+\item 
+Q\+Line\+Edit $\ast$ \hyperlink{classEnterXYZ_a9f70e0fa3c6255adde55e632a2120a4d}{T\+S\+L\+\_\+z\+\_\+input}
+\item 
+double \hyperlink{classEnterXYZ_a3639b21b963f906b8f723d79dcd233f7}{x\+\_\+max}
+\item 
+double \hyperlink{classEnterXYZ_accb844ca3d92160ef5d35034d85fc98c}{y\+\_\+max}
+\item 
+double \hyperlink{classEnterXYZ_ae2f25a3eee138449504f080098091753}{z\+\_\+max}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class for representing a Qt widget for entering the x, y, and z coordinates. 
+
+For enter button \begin{DoxyRefDesc}{Bug}
+\item[\hyperlink{bug__bug000001}{Bug}]Check if the input are numbers else highlight in red 
+
+Output area for showing status and messages 
+
+Output area for showing status and messages \end{DoxyRefDesc}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classEnterXYZ_ae217bb1acbaddbecd1256450f265b881}\label{classEnterXYZ_ae217bb1acbaddbecd1256450f265b881}} 
+\index{Enter\+X\+YZ@{Enter\+X\+YZ}!Enter\+X\+YZ@{Enter\+X\+YZ}}
+\index{Enter\+X\+YZ@{Enter\+X\+YZ}!Enter\+X\+YZ@{Enter\+X\+YZ}}
+\subsubsection{\texorpdfstring{Enter\+X\+Y\+Z()}{EnterXYZ()}}
+{\footnotesize\ttfamily Enter\+X\+Y\+Z\+::\+Enter\+X\+YZ (\begin{DoxyParamCaption}\item[{Q\+Widget $\ast$}]{parent = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+Contructor for \hyperlink{classEnterXYZ}{Enter\+X\+YZ}. 
+
+\hyperlink{classEnterXYZ}{Enter\+X\+YZ} is derived from Q\+Object. 
+\begin{DoxyParams}{Parameters}
+{\em parent} & Pointer to Q\+Widget type object for Q\+Widget\textquotesingle{}s constructor. Defaulted to nullptr. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classEnterXYZ_ab34de4b59028b6bde318b4c658b273b6}\label{classEnterXYZ_ab34de4b59028b6bde318b4c658b273b6}} 
+\index{Enter\+X\+YZ@{Enter\+X\+YZ}!send\+\_\+\+X\+YZ@{send\+\_\+\+X\+YZ}}
+\index{send\+\_\+\+X\+YZ@{send\+\_\+\+X\+YZ}!Enter\+X\+YZ@{Enter\+X\+YZ}}
+\subsubsection{\texorpdfstring{send\+\_\+\+X\+YZ}{send\_XYZ}}
+{\footnotesize\ttfamily void Enter\+X\+Y\+Z\+::send\+\_\+\+X\+YZ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+slot for storing/displaying the entered x,y,z values 
+
+\begin{DoxyReturn}{Returns}
+void Sends x,y,z coordinates to the currently active interactive marker. Stores the entered x,y,z coordinate values in \hyperlink{classEnterXYZ_afbd7b8649dfd2768b948dd9939703de8}{Enter\+X\+Y\+Z\+::\+T\+S\+Ls} and \hyperlink{classEnterXYZ_a78c008b7786472acbdf68d4e155a6dc3}{Enter\+X\+Y\+Z\+::\+BL} 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classEnterXYZ_a78c008b7786472acbdf68d4e155a6dc3}\label{classEnterXYZ_a78c008b7786472acbdf68d4e155a6dc3}} 
+\index{Enter\+X\+YZ@{Enter\+X\+YZ}!BL@{BL}}
+\index{BL@{BL}!Enter\+X\+YZ@{Enter\+X\+YZ}}
+\subsubsection{\texorpdfstring{BL}{BL}}
+{\footnotesize\ttfamily std\+::vector$<$double$>$ Enter\+X\+Y\+Z\+::\+BL\hspace{0.3cm}{\ttfamily [private]}}
+
+Data structure to store the Base-\/\+Location (BL). \mbox{\Hypertarget{classEnterXYZ_a0ad7b37b9783db8a290cb44e48262866}\label{classEnterXYZ_a0ad7b37b9783db8a290cb44e48262866}} 
+\index{Enter\+X\+YZ@{Enter\+X\+YZ}!enter\+\_\+button@{enter\+\_\+button}}
+\index{enter\+\_\+button@{enter\+\_\+button}!Enter\+X\+YZ@{Enter\+X\+YZ}}
+\subsubsection{\texorpdfstring{enter\+\_\+button}{enter\_button}}
+{\footnotesize\ttfamily Q\+Push\+Button$\ast$ Enter\+X\+Y\+Z\+::enter\+\_\+button\hspace{0.3cm}{\ttfamily [private]}}
+
+Button for confirming the entry of T\+SL and BL. \mbox{\Hypertarget{classEnterXYZ_a12897f6ebf3be1e3ad8c02c03ac2bd5d}\label{classEnterXYZ_a12897f6ebf3be1e3ad8c02c03ac2bd5d}} 
+\index{Enter\+X\+YZ@{Enter\+X\+YZ}!T\+S\+L\+\_\+x\+\_\+input@{T\+S\+L\+\_\+x\+\_\+input}}
+\index{T\+S\+L\+\_\+x\+\_\+input@{T\+S\+L\+\_\+x\+\_\+input}!Enter\+X\+YZ@{Enter\+X\+YZ}}
+\subsubsection{\texorpdfstring{T\+S\+L\+\_\+x\+\_\+input}{TSL\_x\_input}}
+{\footnotesize\ttfamily Q\+Line\+Edit$\ast$ Enter\+X\+Y\+Z\+::\+T\+S\+L\+\_\+x\+\_\+input\hspace{0.3cm}{\ttfamily [private]}}
+
+Text editor for entering x-\/coordinate of T\+SL. \mbox{\Hypertarget{classEnterXYZ_a191978afa7c0058b4850e2f461fdf3ec}\label{classEnterXYZ_a191978afa7c0058b4850e2f461fdf3ec}} 
+\index{Enter\+X\+YZ@{Enter\+X\+YZ}!T\+S\+L\+\_\+y\+\_\+input@{T\+S\+L\+\_\+y\+\_\+input}}
+\index{T\+S\+L\+\_\+y\+\_\+input@{T\+S\+L\+\_\+y\+\_\+input}!Enter\+X\+YZ@{Enter\+X\+YZ}}
+\subsubsection{\texorpdfstring{T\+S\+L\+\_\+y\+\_\+input}{TSL\_y\_input}}
+{\footnotesize\ttfamily Q\+Line\+Edit$\ast$ Enter\+X\+Y\+Z\+::\+T\+S\+L\+\_\+y\+\_\+input\hspace{0.3cm}{\ttfamily [private]}}
+
+Text editor for entering y-\/coordinate of T\+SL. \mbox{\Hypertarget{classEnterXYZ_a9f70e0fa3c6255adde55e632a2120a4d}\label{classEnterXYZ_a9f70e0fa3c6255adde55e632a2120a4d}} 
+\index{Enter\+X\+YZ@{Enter\+X\+YZ}!T\+S\+L\+\_\+z\+\_\+input@{T\+S\+L\+\_\+z\+\_\+input}}
+\index{T\+S\+L\+\_\+z\+\_\+input@{T\+S\+L\+\_\+z\+\_\+input}!Enter\+X\+YZ@{Enter\+X\+YZ}}
+\subsubsection{\texorpdfstring{T\+S\+L\+\_\+z\+\_\+input}{TSL\_z\_input}}
+{\footnotesize\ttfamily Q\+Line\+Edit$\ast$ Enter\+X\+Y\+Z\+::\+T\+S\+L\+\_\+z\+\_\+input\hspace{0.3cm}{\ttfamily [private]}}
+
+Text editor for entering z-\/coordinate of T\+SL. \mbox{\Hypertarget{classEnterXYZ_afbd7b8649dfd2768b948dd9939703de8}\label{classEnterXYZ_afbd7b8649dfd2768b948dd9939703de8}} 
+\index{Enter\+X\+YZ@{Enter\+X\+YZ}!T\+S\+Ls@{T\+S\+Ls}}
+\index{T\+S\+Ls@{T\+S\+Ls}!Enter\+X\+YZ@{Enter\+X\+YZ}}
+\subsubsection{\texorpdfstring{T\+S\+Ls}{TSLs}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::vector$<$double$>$ $>$ Enter\+X\+Y\+Z\+::\+T\+S\+Ls\hspace{0.3cm}{\ttfamily [private]}}
+
+Data structure to store all the Task-\/\+Space-\/\+Locations entered by the user so far. \mbox{\Hypertarget{classEnterXYZ_a3639b21b963f906b8f723d79dcd233f7}\label{classEnterXYZ_a3639b21b963f906b8f723d79dcd233f7}} 
+\index{Enter\+X\+YZ@{Enter\+X\+YZ}!x\+\_\+max@{x\+\_\+max}}
+\index{x\+\_\+max@{x\+\_\+max}!Enter\+X\+YZ@{Enter\+X\+YZ}}
+\subsubsection{\texorpdfstring{x\+\_\+max}{x\_max}}
+{\footnotesize\ttfamily double Enter\+X\+Y\+Z\+::x\+\_\+max\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classEnterXYZ_accb844ca3d92160ef5d35034d85fc98c}\label{classEnterXYZ_accb844ca3d92160ef5d35034d85fc98c}} 
+\index{Enter\+X\+YZ@{Enter\+X\+YZ}!y\+\_\+max@{y\+\_\+max}}
+\index{y\+\_\+max@{y\+\_\+max}!Enter\+X\+YZ@{Enter\+X\+YZ}}
+\subsubsection{\texorpdfstring{y\+\_\+max}{y\_max}}
+{\footnotesize\ttfamily double Enter\+X\+Y\+Z\+::y\+\_\+max\hspace{0.3cm}{\ttfamily [private]}}
+
+Set from the reconstructed workspace\textquotesingle{}s max x-\/coordinate + something \mbox{\Hypertarget{classEnterXYZ_ae2f25a3eee138449504f080098091753}\label{classEnterXYZ_ae2f25a3eee138449504f080098091753}} 
+\index{Enter\+X\+YZ@{Enter\+X\+YZ}!z\+\_\+max@{z\+\_\+max}}
+\index{z\+\_\+max@{z\+\_\+max}!Enter\+X\+YZ@{Enter\+X\+YZ}}
+\subsubsection{\texorpdfstring{z\+\_\+max}{z\_max}}
+{\footnotesize\ttfamily double Enter\+X\+Y\+Z\+::z\+\_\+max\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{enter__xyz_8h}{enter\+\_\+xyz.\+h}\item 
+\hyperlink{enter__xyz_8cpp}{enter\+\_\+xyz.\+cpp}\end{DoxyCompactItemize}
